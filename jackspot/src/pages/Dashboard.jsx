@@ -1,11 +1,15 @@
 import React from "react";
+import NavBar from "../components/NavBar";
 
 function Dashboard(){
 
 
-    return(
+    return (
         <>
-            <h1>Test: Dashboard Page is live!</h1>
+            <header>
+                <NavBar />
+            </header>
+            <h1>Test: Dashboard page is live!</h1>
         </>
     )
 }
